@@ -82,3 +82,11 @@ cd /usr/local/go/src/text/template
 |____helper.go
 |____doc.go
 |____funcs.go
+
+https://blog.csdn.net/somanlee/article/details/108304525
+
+https://blog.csdn.net/fangkang7/article/details/105045514
+
+https://studygolang.com/articles/12348?fr=sidebar
+
+https://stackoverflow.com/questions/38681718/golang-reflect-how-to-get-map-value-type
