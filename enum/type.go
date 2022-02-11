@@ -22,3 +22,8 @@ func main() {
 	fmt.Println(Typ1(t2), Typ1(t3))
 	fmt.Printf("%T", Typ1(t3))
 }
+
+/*
+2 3
+main.Typ1
+*/
