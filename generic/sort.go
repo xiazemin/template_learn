@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Sortable interface {
 	Len() int
@@ -34,6 +36,15 @@ func bubbleSort(array []interface{}) {
 }
 
 func equal[T comparable](a, b T) T {
+	// type c int
+
+	// var d c
+	//fmt.Println(d)
+
+	// type e = int
+	// var f e
+	// fmt.Println(f)
+	// ./sort.go:40:2: type declarations inside generic functions are not currently supported
 	if a == b {
 		fmt.Println("equal")
 		return a
@@ -57,3 +68,7 @@ func add[T comparable](a, b T) T {
 //https://tip.golang.org/doc/go1.18
 // ./sort.go:42:5: invalid operation: cannot compare a < b (operator < not defined on T)
 // ./sort.go:49:9: invalid operation: operator + not defined on a (variable of type T constrained by comparable)
+
+func Change[x any](v x) {
+	fmt.Println(v)
+}
